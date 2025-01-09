@@ -1,0 +1,612 @@
+@font-face {
+    src: url(Font.ttf);
+    font-family: font2020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clearfix {
+    clear: both
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer
+}
+
+table {
+    width: 80%;
+    color: #ffffff;
+}
+
+td {
+    text-align: center;
+}
+
+
+/* p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+} */
+
+
+/* Start navbar */
+
+#navbar {
+    background-color: #d0c494;
+}
+
+#navbar ul li {
+    color: #8e4f3f;
+    float: right;
+    margin: 38px 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logo {
+    margin: 0 25px;
+    float: right;
+}
+
+#socialmedia ul li {
+    float: left;
+    margin: 30px 5px;
+}
+
+
+/* End navbar */
+
+
+/* Start First Section */
+
+.FirstSection {
+    background-image: url("images/img2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FirstSection #top {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    border-top: dashed 2px #ffffff;
+}
+
+.FirstSection #Down {
+    margin-top: 110px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    border-top: dashed 2px #ffffff;
+}
+
+.FirstSection #logo2 {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.FirstSection #text1 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 300px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    font-family: font2020;
+}
+
+.FirstSection button {
+    margin: auto;
+    margin-top: 380px;
+    display: block;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    border: 0;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.FirstSection button:hover {
+    color: rgb(0, 0, 0);
+    border: 1px solid #999;
+}
+
+
+/* End First Section */
+
+
+/* Start Second Section */
+
+.card {
+    padding-bottom: 50px;
+}
+
+#SecondSection {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SecondSection .card {
+    margin-left: 11px;
+    width: 300px;
+    height: 310px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    right: 287px;
+}
+
+#SecondSection .card img {
+    width: 100%;
+}
+
+#SecondSection .card .card-body #Name {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 5%;
+    float: right;
+}
+
+#SecondSection .card .card-body #yes {
+    text-align: center;
+    margin-top: 16%;
+    margin-right: -20%;
+    float: right;
+}
+
+#SecondSection .card .card-body h4 {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+}
+
+#SecondSection .card .card-body #crave {
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+    border: 0;
+    text-align: center;
+    margin-top: 19%;
+    margin-right: -26%;
+    float: right;
+    background-color: #008800;
+}
+
+
+/* End Second Section  */
+
+
+/* Start Third Section */
+
+.ThirdSection {
+    background-image: url("images/5.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End Third Section */
+
+
+/* Start Fourth Section */
+
+#FourthSection {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FourthSection .card {
+    width: 350px;
+    height: 320px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin: 10% 1.5%;
+    margin-top: -px;
+}
+
+#FourthSection .card img {
+    width: 100%;
+}
+
+#FourthSection .card .card-body #Name {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 5%;
+    float: right;
+}
+
+#FourthSection .card .card-body #yes {
+    text-align: center;
+    margin-top: 16%;
+    margin-right: -20%;
+    float: right;
+}
+
+#FourthSection .card .card-body h4 {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+}
+
+#FourthSection .card .card-body #crave {
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+    border: 0;
+    text-align: center;
+    margin-top: 19%;
+    margin-right: -26%;
+    float: right;
+    background-color: #008800;
+}
+
+
+/* End Fourth Section */
+
+
+/* Start Fifth Section  */
+
+#FifthSection {
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FifthSection .card {
+    width: 350px;
+    height: 320px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin: 10% 1.5%;
+    margin-top: 0px;
+}
+
+#FifthSection .card img {
+    width: 100%;
+}
+
+#FifthSection .card .card-body #Name {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 5%;
+    float: right;
+}
+
+#FifthSection .card .card-body #yes {
+    text-align: center;
+    margin-top: 16%;
+    margin-right: -20%;
+    float: right;
+}
+
+#FifthSection .card .card-body h4 {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 5%;
+    float: left;
+}
+
+#FifthSection .card .card-body #crave {
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+    border: 0;
+    text-align: center;
+    margin-top: 19%;
+    margin-right: -26%;
+    float: right;
+    background-color: #008800;
+}
+
+
+/* End Fifth Section  */
+
+
+/* Start Sixth Section  */
+
+.SixthSection {
+    background-image: url("images/map.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SixthSection #topLine {
+    margin-top: 0px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    border-top: solid 4px #000000;
+}
+
+.SixthSection #button1 {
+    height: 50px;
+    width: 150px;
+    border: 0;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    float: left;
+    background-color: #000000;
+}
+
+.foot {
+    width: 1348px;
+    height: 500px;
+    background-color: #d0c493;
+    margin-top: 0px;
+}
+
+.data {
+    width: 900px;
+    height: 400px;
+    margin-top: -30px;
+    margin-left: 270px;
+    margin-top: 30px;
+    float: left;
+}
+
+.end {
+    width: 263px;
+    height: 300px;
+    margin: 55px;
+    display: inline-table;
+    position: relative;
+    left: 15%;
+    top: 5%;
+    float: left;
+}
+
+.end1 {
+    background-color: #d0c493;
+    color: black;
+    display: inline-table;
+    position: relative;
+    left: 30%;
+    top: 1px;
+}
+
+.end2 {
+    width: 250px;
+    height: 400px;
+    background-color: #d0c493;
+    margin: 55px;
+    position: relative;
+    left: 43%;
+    text-align: right;
+    display: inline-grid;
+    font-size: 14px;
+}
+
+.end2 span {
+    font-size: 15px;
+}
+
+.hhhhhh {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #821517;
+    float: right;
+    padding-right: 15px;
+}
+
+.imgend {
+    width: 20px;
+    height: 15px;
+    padding-left: 200px;
+    margin-top: 0px;
+}
+
+.endsgm {
+    margin-top: 30px;
+    margin-bottom: 5px 15px;
+    color: #821517;
+}
+
+.endph {
+    margin-top: 30px;
+    margin-bottom: 5px 15px;
+    color: #821517;
+}
+
+.endtl {
+    margin-top: -20px;
+    margin-bottom: 5px 15px;
+    color: #821517;
+}
+
+.endad {
+    margin-top: -20px;
+    margin-bottom: 5px 15px;
+    color: #821517;
+}
+
+h4 {
+    margin-top: 10px;
+    padding-left: 75px;
+}
+
+input {
+    margin-left: 11px;
+    padding: 5px;
+}
+
+.h1end1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #821517;
+}
+
+.imgend1 {
+    border-radius: 250px;
+}
+
+.r5 {
+    margin-left: 70px;
+    float: right;
+}
+
+.aends {
+    font-size: 15px;
+    color: black;
+    padding: 12px;
+    margin-top: -43px;
+    float: left;
+    margin-left: 30px;
+}
+
+.st {
+    margin-left: 30px;
+}
+
+.footerText {
+    position: relative;
+    left: -50px;
+}
+
+.s {
+    position: relative;
+    top: 30px;
+}
+
+.s1 {
+    position: relative;
+    top: 50px;
+}
+
+.s2 {
+    position: relative;
+    top: 70px;
+}
+
+.s3 {
+    position: relative;
+    top: 100px;
+}
+
+.h1end {
+    padding-left: 50px;
+    margin-top: 10px;
+    color: #821517;
+    text-align: right;
+    ;
+}
+
+.prin {
+    margin-top: 10px;
+    width: 100%;
+}
+
+textarea {
+    margin-top: 8px;
+    width: 100%;
+    height: 100px;
+    margin-left: 10px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.botnare {
+    padding-left: 30px;
+    margin-left: 10px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 05px;
+    border-radius: 6px;
+    background-color: rgb(216, 57, 57);
+    color: #ffffff;
+    border: 2px red;
+    font-size: 20px;
+}
+
+.mm {
+    background: #8f7e52;
+}
+
+.sectionEnd {
+    height: 509px;
+    background: #d0c493;
+}
+
+.SecondSectionUl1 {
+    padding-top: 35px;
+    display: inline-flex;
+    position: relative;
+    top: -233px;
+    left: 2%
+}
+
+.SecondSectionUl1 li {
+    width: 200px;
+    height: 43px;
+    display: inline-block;
+    padding-left: 82px;
+    border-bottom: solid;
+}
+
+.SecondSectionUl1 li button {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+#card1 {
+    position: absolute;
+    left: 38%;
+}
+
+#card2 {
+    display: none;
+    position: absolute;
+    left: 38%;
+}
+
+#card3 {
+    position: absolute;
+    left: 38%;
+    display: none;
+}

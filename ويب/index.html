@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style type="text/css">
+        @font-face {
+            src: url(Font.ttf);
+            font-family: font2020;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: font2020;
+        }
+        
+        .clearfix {
+            clear: both
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        button {
+            cursor: pointer
+        }
+        
+        table {
+            width: 80%;
+            color: #ffffff;
+        }
+        
+        td {
+            text-align: center;
+        }
+        /* Start navbar */
+        
+        #navbar {
+            background-color: #d0c494;
+        }
+        
+        #navbar ul li {
+            color: #8e4f3f;
+            float: right;
+            margin: 38px 10px;
+            font-family: font2020;
+        }
+        
+        #logo {
+            margin: 0 25px;
+            float: right;
+        }
+        
+        #socialmedia ul li {
+            float: left;
+            margin: 30px 5px;
+        }
+        /* End navbar */
+        /* Start First Section */
+        
+        .FirstSection {
+            background-image: url("images/img2.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .FirstSection #top {
+            margin-top: 5px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            border-top: dashed 2px #ffffff;
+        }
+        
+        .FirstSection #Down {
+            margin-top: 110px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            border-top: dashed 2px #ffffff;
+        }
+        
+        .FirstSection #logo2 {
+            margin-top: 100px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+        }
+        
+        .FirstSection #text1 {
+            color: #ffffff;
+            font-size: 30px;
+            margin-top: 300px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            font-family: font2020;
+        }
+        
+        .FirstSection button {
+            margin: auto;
+            margin-top: 380px;
+            display: block;
+            height: 40px;
+            width: 150px;
+            border-radius: 15px;
+            border: 0;
+            background-color: red;
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            font-size: 20px;
+            font-family: font2020;
+        }
+        
+        .FirstSection button:hover {
+            color: rgb(0, 0, 0);
+            border: 1px solid #999;
+        }
+        /* Start Second Section */
+        
+        .card {
+            padding-bottom: 50px;
+        }
+        
+        #SecondSection {
+            background-color: #f2f2f2;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #SecondSection .card img {
+            width: 100%;
+        }
+        
+        #SecondSection .card .card-body #Name {
+            text-align: center;
+            margin-top: 0%;
+            margin-right: 5%;
+            float: right;
+        }
+        
+        #SecondSection .card .card-body #yes {
+            text-align: center;
+            margin-top: 16%;
+            margin-right: -20%;
+            float: right;
+        }
+        
+        #SecondSection .card .card-body h4 {
+            text-align: center;
+            margin-top: 1%;
+            margin-left: 5%;
+            float: left;
+        }
+        
+        #SecondSection .card .card-body #crave {
+            height: 15px;
+            width: 15px;
+            border-radius: 7.5px;
+            border: 0;
+            text-align: center;
+            margin-top: 19%;
+            margin-right: -26%;
+            float: right;
+            background-color: #008800;
+        }
+        /* Start Third Section */
+        
+        .ThirdSection {
+            background-image: url("images/5.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Start Fourth Section */
+        
+        #FourthSection {
+            background-color: #f2f2f2;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #FourthSection .card {
+            width: 350px;
+            height: 320px;
+            background-color: #ffffff;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            float: left;
+            margin: 10% 1.5%;
+            margin-top: -px;
+        }
+        
+        #FourthSection .card img {
+            width: 100%;
+        }
+        
+        #FourthSection .card .card-body #Name {
+            text-align: center;
+            margin-top: 0%;
+            margin-right: 5%;
+            float: right;
+        }
+        
+        #FourthSection .card .card-body #yes {
+            text-align: center;
+            margin-top: 16%;
+            margin-right: -20%;
+            float: right;
+        }
+        
+        #FourthSection .card .card-body h4 {
+            text-align: center;
+            margin-top: 1%;
+            margin-left: 5%;
+            float: left;
+        }
+        
+        #FourthSection .card .card-body #crave {
+            height: 15px;
+            width: 15px;
+            border-radius: 7.5px;
+            border: 0;
+            text-align: center;
+            margin-top: 19%;
+            margin-right: -26%;
+            float: right;
+            background-color: #008800;
+        }
+        /* Start Fifth Section  */
+        
+        #FifthSection {
+            background-color: #f2f2f2;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #FifthSection .card {
+            width: 350px;
+            height: 320px;
+            background-color: #ffffff;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            float: left;
+            margin: 10% 1.5%;
+            margin-top: 0px;
+        }
+        
+        #FifthSection .card img {
+            width: 100%;
+        }
+        
+        #FifthSection .card .card-body #Name {
+            text-align: center;
+            margin-top: 0%;
+            margin-right: 5%;
+            float: right;
+        }
+        
+        #FifthSection .card .card-body #yes {
+            text-align: center;
+            margin-top: 16%;
+            margin-right: -20%;
+            float: right;
+        }
+        
+        #FifthSection .card .card-body h4 {
+            text-align: center;
+            margin-top: 1%;
+            margin-left: 5%;
+            float: left;
+        }
+        
+        #FifthSection .card .card-body #crave {
+            height: 15px;
+            width: 15px;
+            border-radius: 7.5px;
+            border: 0;
+            text-align: center;
+            margin-top: 19%;
+            margin-right: -26%;
+            float: right;
+            background-color: #008800;
+        }
+        /* Start Sixth Section  */
+        
+        .SixthSection {
+            background-image: url("images/map.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .SixthSection #topLine {
+            margin-top: 0px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            border-top: solid 4px #000000;
+        }
+        
+        .SixthSection #button1 {
+            height: 50px;
+            width: 150px;
+            border: 0;
+            text-align: center;
+            margin-bottom: 0%;
+            margin-left: 2%;
+            float: left;
+            background-color: #000000;
+        }
+        
+        .foot {
+            width: 1348px;
+            height: 500px;
+            background-color: #d0c493;
+            margin-top: 0px;
+        }
+        
+        .data {
+            width: 900px;
+            height: 400px;
+            margin-top: -30px;
+            margin-left: 270px;
+            margin-top: 30px;
+            float: left;
+        }
+        
+        .end1 {
+            width: 150px;
+            height: 300px;
+            background-color: #d0c493;
+            float: left;
+            margin-left: -30px;
+            margin-top: 65px;
+            color: black;
+        }
+        
+        .hhhhhh {
+            margin-top: 10px;
+            color: #821517;
+            float: right;
+        }
+        
+        .imgend {
+            width: 20px;
+            height: 15px;
+            padding-left: 200px;
+            margin-top: 0px;
+        }
+        
+        .endsgm {
+            float: right;
+            margin-top: -20px;
+            font-size: 10px;
+            color: #821517;
+        }
+        
+        .endph {
+            float: right;
+            margin-top: -20px;
+            font-size: 10px;
+            color: #821517;
+        }
+        
+        h4 {
+            margin-top: 10px;
+            padding-left: 75px;
+        }
+        
+        .h1end1 {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            color: #821517;
+        }
+        
+        .imgend1 {
+            border-radius: 250px;
+        }
+        
+        .r5 {
+            margin-left: 70px;
+            float: right;
+        }
+        
+        .botnare {
+            padding-left: 30px;
+            margin-left: 10px;
+            padding-right: 30px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-top: 05px;
+            border-radius: 6px;
+            background-color: rgb(216, 57, 57);
+            color: #ffffff;
+            border: 2px red;
+            font-size: 20px;
+        }
+        
+        .mm {
+            background: #8f7e52;
+        }
+        
+        .ah {
+            text-align: button;
+        }
+        
+        .aa {
+            text-decoration-line: none;
+            color: #8e4f3f;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- Start navbar -->
+    <nav id="navbar" style="height: 90px;">
+        <div id="logo"> <img src="images/lable.jpg"></div>
+        <div id="socialmedia">
+            <ul>
+                <li>
+                    <a href="https://www.google.com/"><img src="images/google.png" width="30" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="images/facebook.png" width="30" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/explore"><img src="images/twiter.png" width="30" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/?hl=ar"><img src="images/YouTube.png" width="30" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/"><img src="images/Apple.png" width="30" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.skype.com/ar/"><img src="images/skype.png" width="30" height="30"></a>
+                </li>
+            </ul>
+        </div>
+        <ul>
+            <a href="#" class="aa">
+                <li>الرئيسية
+            </a>
+            </li>
+            <a href="#" class="aa">
+                <li>خدمات
+            </a>
+            </li>
+            <a href="#" class="aa">
+                <li>وجبات
+            </a>
+            </li>
+            <a href="#" class="aa">
+                <li>فريق العمل
+            </a>
+            </li>
+            <a href="#" class="aa">
+                <li>اطلب وجبتك
+            </a>
+            </li>
+            <a href="#" class="aa">
+                <li>اتصل بنا
+            </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- End navbar -->
+
+
+    <!-- Start First Section -->
+    <div class="FirstSection" style="height: 550px;">
+        <div id="top"></div>
+        <div id="logo2"><img src="images/lable2.gif"></div>
+        <h3 id="text1">لأشهى المأكولات البحرية والشعبية</h3>
+        <div class="clearfix"></div>
+        <button>أطلب الآن</button>
+        <div id="Down"></div>
+    </div>
+    <div class="clearfix"></div>
+    <!-- End First Section -->
+
+    <!-- Start Second Section -->
+    <section id="SecondSection" style="height: 600px;">
+        <ul class="SecondSectionUl1">
+            <li id="SecondSectionLi1" style="border-color: rgb(127, 22, 24);"><button id="show1" style="color: rgb(127, 22, 24);" onclick=show1()>وجبة الفطور</button></li>
+            <li id="SecondSectionLi2"><button id="SecondSectionbtn2" onclick=show2()>وجبة الغداء</button></li>
+            <li id="SecondSectionbtn3"><button id="btn3" onclick=show3()>وجبة العشاء</button></li>
+        </ul>
+        <div id="card1">
+            <div class="card">
+                <img src="images/1.jpg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/1.jpg">
+                <div class="card-body">
+                    <h3 id="Name" id="#a1">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/1.jpg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+        </div>
+        <div id="card2">
+            <div class="card">
+                <img src="images/asd02.jpeg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/asd01.jpg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/asd06.jpg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+        </div>
+        <div id="card3">
+            <div class="card">
+                <img src="images/asd06.jpg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/asd02.jpeg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/asd01.jpg">
+                <div class="card-body">
+                    <h3 id="Name">اسم الوجبة</h3>
+                    <button id="crave"></button>
+                    <h3 id="yes">متاح</h3>
+                    <h4>70$ السعر</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- End Second Section -->
+    <!-- Start Third Section -->
+    <div class="ThirdSection" style="height: 700px;">
+
+
+        <table>
+            <tr>
+                <td style="height: 80px;"><img src="images/new.gif"></td>
+                <td><img src="images/gift.gif"></td>
+                <td><img src="images/delever.gif"></td>
+            </tr>
+
+            <tr>
+                <td>عروض متجددة</td>
+                <td>هدايا</td>
+                <td>خدمات توصيل</td>
+            </tr>
+
+            <tr>
+                <td style="height: 80px;">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </td>
+                <td style="height: 80px;">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </td>
+                <td style="height: 80px;">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="clearfix"></div>
+    <!-- End Third Section -->
+    <!-- Start Fourth Section -->
+    <section id="FourthSection" style="height:400px;">
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="card-body">
+                <h3 id="Name">اسم الوجبة</h3>
+                <button id="crave"></button>
+                <h3 id="yes">متاح</h3>
+                <h4>70$ السعر</h4>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="card-body">
+                <h3 id="Name">اسم الوجبة</h3>
+                <button id="crave"></button>
+                <h3 id="yes">متاح</h3>
+                <h4>70$ السعر</h4>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="card-body">
+                <h3 id="Name">اسم الوجبة</h3>
+                <button id="crave"></button>
+                <h3 id="yes">متاح</h3>
+                <h4>70$ السعر</h4>
+            </div>
+        </div>
+    </section>
+    <!-- End Fourth Section -->
+
+    <!-- Start Fifth Section -->
+
+    <section id="FifthSection">
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="card-body">
+                <h3 id="Name">اسم الوجبة</h3>
+                <button id="crave"></button>
+                <h3 id="yes">متاح</h3>
+                <h4>70$ السعر</h4>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="card-body">
+                <h3 id="Name">اسم الوجبة</h3>
+                <button id="crave"></button>
+                <h3 id="yes">متاح</h3>
+                <h4>70$ السعر</h4>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/1.jpg">
+            <div class="card-body">
+                <h3 id="Name">اسم الوجبة</h3>
+                <button id="crave"></button>
+                <h3 id="yes">متاح</h3>
+                <h4>70$ السعر</h4>
+            </div>
+        </div>
+
+    </section>
+    <div class="clearfix"></div>
+    <!-- End Fifth Section -->
+
+    <!-- Start Fifth Section -->
+    <div class="SixthSection" style="height: 550px;">
+
+        <button id="button1"></button>
+        <div id="topLine"></div>
+
+    </div>
+    <section class="sectionEnd">
+
+        <div class="end">
+            <h1 class="h1end">
+                أرسل رسالة الآن
+            </h1>
+            <form action="">
+                <input class="prin" id="d1" type="text" name="User" placeholder="الاسم" autocomplete="on" style="text-align: right;"><span id="h1" style="display: none;">الرجاء أدخال الأسم</span>
+                <input class="prin" id="d2" type="text" name="Email" placeholder="البريد الالكتروني" autocomplete="on" style="text-align: right;"><span id="h2" style="display: none;">الرجاء أدخال البريد</span>
+                <textarea cols="10" id="d3" placeholder="الرسالة"></textarea> <span id="h3" style="display: none;">الرجاء أدخال الرسالة</span>
+                <input type="submit" class="botnare" value="أرسل الآن" id="sub">
+                <!-- <input type="submit" value="submit" class="botnare"> -->
+
+            </form>
+        </div>
+
+        <div class="end1">
+            <h1 class="h1end1">
+                روابط سريعة
+            </h1>
+            <div class="footerText">
+                <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+                <a href="#y1"><span class="aends"><strong class="st">الرئيسية</strong></span> </a>
+
+                <i class="s">
+                <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+                <a href="#y2"><span class="aends"><strong class="st">خدمات</strong></span> </a>
+                 </i>
+                <i class="s1">
+                <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+                <a href="#"><span class="aends"><strong>فريق العمل</strong></span> </a>
+                </i>
+                <i class="s2">
+                <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+                <a href="#"><span class="aends"><strong>اطلب وجبتك</strong></span> </a>
+                 </i>
+                <i class="s3">
+                <span class="r5"> <img class="imgend1" src="images/check.jpg"></span>
+
+                <a href="#"><span class="aends"><strong class="st"> اتصل بنا</strong></span></a>
+                 </i>
+            </div>
+        </div>
+
+        <div class="end2">
+            <h1 class="hhhhhh">
+                بيانات التواصل
+            </h1>
+
+            <span class="endsgm">alhzqyly@gmail.com<i class="far fa-envelope" aria-hidden="true"></i></span>
+            <span class="endph">+972592702712<i class="fas fa-phone-alt" aria-hidden="true"></i></span>
+            <span class="endtl">08 2555735</span>
+
+            <span class="endad">www.ahmed.com</span>
+            <form action="javascript:f3()">
+                <h4 style="color: #821517;">
+                    اشترك معنا بالقائمة البريدية
+                </h4>
+                <input type="text" name="Name" id="r" placeholder="البريد الالكتروني" autocomplete="on" style="text-align:right;">
+                <span id="ff" style=" display: none;">الرجاء إدخال البريد</span>
+
+                <input type="submit" class="botnare" value="اشترك الآن"><br>
+            </form>
+        </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
